@@ -1,0 +1,10 @@
+[Unit]
+Description=Sync ThinkPad Mute LED using Brightnessctl
+After=pipewire.service
+
+[Service]
+ExecStart=%h/.local/bin/mute-led-listener.sh
+Restart=on-failure
+
+[Install]
+WantedBy=default.target
