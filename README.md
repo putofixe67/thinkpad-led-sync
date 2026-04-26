@@ -35,7 +35,7 @@ sudo apt update && sudo apt install brightnessctl
 To install both the speaker and microphone sync services automatically, run this single command in your terminal:
 
 ```bash
-sh -c "$(curl -fsSL [https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO_NAME/main/install.sh](https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO_NAME/main/install.sh))"
+sh -c "$(curl -fsSL [https://raw.githubusercontent.com/putofixe67/thinkpad-led-sync/main/install.sh](https://raw.githubusercontent.com/putofixe67/thinkpad-led-sync/main/install.sh))"
 ```
 
 You can also install the scripts manually for the Speakers (F1), the Microphone (F4), or both below. 
