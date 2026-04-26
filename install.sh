@@ -11,7 +11,7 @@ RAW_URL="https://raw.githubusercontent.com/$GITHUB_USER/$GITHUB_REPO/$BRANCH"
 echo "=== ThinkPad LED Sync Installer ==="
 
 # 1. Check for brightnessctl
-if ! command -v brightnessctl &> /dev/null; then
+if ! command -v brightnessctl > /dev/null 2>&1; then
     echo "⚠️  'brightnessctl' is not installed."
     echo "Please install it first by running: sudo apt install brightnessctl"
     echo "Then re-run this installer."
